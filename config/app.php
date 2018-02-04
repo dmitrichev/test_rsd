@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'start_password' => 1650,
+    'start_password' => 0,
     'requests_per_iteration' => 50,
     'form_address' => 'http://www.rollshop.co.il/test.php',
     'use_proxy' => false,
