@@ -53,7 +53,7 @@ class Application
     {
         $this->start = microtime(true);
 
-        $request = new MultiRequest($this->config['form_address'], $this->config['requests_per7_iteration']);
+        $request = new MultiRequest($this->config['form_address'], $this->config['requests_per_iteration']);
 
         $password_generator = new Password($this->config['start_password']);
         $request->setPasswordGenerator($password_generator);
